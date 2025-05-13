@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "descricao": "Produto01",
+        "imagem": "../Dados/imagens/produto01.webp",
+        "preco": 100.0
+    },
+    {
+        "id": 2,
+        "descricao": "Produto02",
+        "imagem": "../Dados/imagens/produto02.webp",
+        "preco": 300.0
+    },
+    {
+        "id": 3,
+        "descricao": "Produto03",
+        "imagem": "../Dados/imagens/produto3.webp",
+        "preco": 190.0
+    }
+]
+
