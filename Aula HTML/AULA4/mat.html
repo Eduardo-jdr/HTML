@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas</title>
+    <link rel="stylesheet" href="mat.css">
+    <script src="mat.js"></script>
+</head>
+<body>
+    <h1>Contas Matemágicas</h1>
+    <br>
+    <main>
+        <section>
+            <h2>Somar</h2>
+            <label for="n1">Primeiro número</label>
+            <input id="n1" type="number" placeholder="Insira o número">
+            <label for="n2">Segundo número</label>
+            <input id="n2" type="number" placeholder="Insira o número">
+            <button onclick="somar()">CALCULAR</button>
+            <h3 id="resultadoSoma"></h3>
+        </section>
+        <section>
+            <h2>Subtrair</h2>
+            <label for="n3">Primeiro número</label>
+            <input id="n3" type="number" placeholder="Insira o número">
+            <label for="n4">Segundo número</label>
+            <input id="n4" type="number" placeholder="Insira o número">
+            <button onclick="subtrair()">CALCULAR</button>
+            <h3 id="resultadoSubtracao"></h3>
+        </section>
+        <section>
+            <h2>Divisão</h2>
+            <label for="n5">Primeiro número</label>
+            <input id="n5" type="number" placeholder="Insira o número">
+            <label for="n6">Segundo número</label>
+            <input id="n6" type="number" placeholder="Insira o número">
+            <button onclick="divisao()">CALCULAR a conta</button>
+            <h3 id="resultadoDivisao"></h3>
+        </section>
+        <section>
+            <h2>Multiplicação</h2>
+            <label for="n7">Primeiro número</label>
+            <input id="n7" type="number" placeholder="Insira o número">
+            <label for="n8">Segundo número</label>
+            <input id="n8" type="number" placeholder="Insira o número">
+            <button onclick="multiplicacao()">CALCULAR</button>
+            <h3 id="resultadoMultiplicacao"></h3>
+        </section>
+        <section>
+            <h2>Média escolar</h2>
+            <input id="m1" type="number" placeholder="Digite a nota">
+            <input id="m2" type="number" placeholder="Digite a nota">
+            <input id="m3" type="number" placeholder="Digite a nota">
+            <input id="m4" type="number" placeholder="Digite a nota">
+            <input id="m5" type="number" placeholder="Digite a nota">
+            <button onclick="media()">CALCULAR</button>
+            <p id="respMedia"></p>
+            <p id="msg"></p>
+        </section>
+        <section>
+            <h2>IMC</h2>
+            <input id="peso" type="number" placeholder="Digite seu peso">
+            <input id="altura" type="number" placeholder="Digite sua altura">
+            <button onclick="calcIMC()">CALCULAR</button>
+            <p id="res"></p>
+            <p id="msgIMC"></p>
+        </section>
+        <section>
+            <h2>ENTRADA DO BAR</h2>
+            <input type="number" id="clientBirth" placeholder="Qual ano nasceu?">
+            <button onclick="checkMajority()">Verify</button>
+            <p id="result"></p>
+            <p id="clientAge"></p>
+        </section>
+    </main>
+</body>
+</html>

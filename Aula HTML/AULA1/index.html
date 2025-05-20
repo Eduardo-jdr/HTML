@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página</title>
+    <style>
+        .alinhamento{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(59, 58, 58);">
+    <h1 style="color: rgb(119, 0, 255)">Bem vindos ao HTML!</h1>
+    <p style="color: whitesmoke;">Esta é minha primeira página usando HTML.</p>
+    <br />
+    <p style="color:rgb(119, 0, 255)"><b style="font-size:30px;">Sobre Mim</b><br>
+    
+    <i style="color: white;">Olá! Meu nome é Carlos Eduardo Jorge da Rocha, tenho 43 anos e sou apaixonado por tecnologia. Estudo Desenvolvimento de Sistemas, com foco em Python, além de Desenvolvimento Front-end, buscando sempre aprimorar minhas habilidades e explorar novas possibilidades no universo digital.
+        
+        Nasci em Belém do Pará, mas desde 2019 escolhi Curitiba como meu lar. A cidade me conquistou com seu clima frio e sua qualidade de vida, proporcionando um ambiente perfeito para viver e crescer.
+        
+        Além da tecnologia, tenho grandes paixões: basquete e xadrez, que desafiam minha estratégia e competitividade. Também sou fã do jogo Gems of War, que se tornou um dos meus passatempos favoritos.
+        
+        Atualmente, sou solteiro, sem filhos, e sigo acreditando que o universo conspirará para que meus desejos se realizem—entre eles, encontrar uma mulher especial para compartilhar momentos e construir uma bela história.
+        
+        Se quiser trocar ideias sobre tecnologia, jogos ou apenas bater um bom papo, seja bem-vindo ao meu espaço!
+
+    </i>
+    <hr /> É uma linha e
+    o comentário vai aqui 
+    <hr /> 
+    
+    <!--formatação de texto>
+    <p><b>bold</b> frase<i> italico</i> <u>sublinhado</u></p-->
+    
+    <!--Listas-->
+    <ul>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+        <li>food</li>
+    </ul>    
+    <ol>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+        <li>food</li> 
+    </ol>
+    <ul style="list-style:lower-alpha;">
+        <li>Item da lista 1</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 3</li>
+    </ul>
+    <ol style="list-style: lower-roman;">
+        <li>Item da lista 1</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 3</li>
+    </ol>
+    <hr />
+    <div style="background-color: #205b8b; color: #ffffff;">
+        <h2>Um subtitulo por exemplo</h2>
+        <p>Alguma frase legal</p>
+        <p>Alguma frase</p>
+    </div>
+    <!--Links-->
+    <hr />
+    <div style="background-color: #000000; color: #ffffff;
+    <h3 style="font-size: 10;">Você pode assistir a serie Dark acessando a Netiflix no link abaixo:</h3><br>
+    <a href="https://www.netflix.com/br/" style="color: red;" target="_blank">Netflix.com</a><br>
+    </div>
+    <!--Imagens-->
+    <img src="https://bitsebaits.com/wp-content/uploads/2024/09/dark.jpg"
+    alt="Dark"
+    width="auto"
+    height="500"
+    />
+    <img src="https://m.media-amazon.com/images/I/71yHhS8H7tL._AC_UF894,1000_QL80_.jpg"
+    alt="True Detective"
+    width="auto"
+    height="500" 
+    /><br>
+    <img src="https://lirp.cdn-website.com/0bb283b1/dms3rep/multi/opt/the+walking+dead+dead+city+2-640w.jpg"
+    alt="The Walking Dead"
+    width="auto"
+    height="448px"
+    /> 
+    <!--Tag Genéricda-->
+    <p style="background-color: darkcyan;">
+        É um fundo amarelo suave e span destaca uma parte do texto com outra cor.        
+        <span style="color: lightcoral;">uma parte da frase para ser destacada com outra cor.</span>
+        depois dessa tag, o texto continua com a primeira cor definida, aqui não aparece porque eu defini a cor branca no inicio da html em (div)
+        Então dei outro span com a cor preta
+    </p>
+    <h1>
+        Outro exemplo é <span style="text-decoration:underline;">uma decoração no texto.</span>
+    </h1>
+
+    <!--Tag Genérica-->
+    <table border="1">
+        <tr>
+            <th>Compania</th>
+            <th>Contato</th>
+            <th>País</th>
+        </tr>
+        <tr>
+            <td>Senai</td>
+            <td>(41)3030-0330</td>
+            <td>Brasil</td> 
+        </tr>
+        <tr>
+            <td>Senai</td>
+            <td>(41)3030-0330</td>
+            <td>Brasil</td> 
+        </tr>
+        <tr>
+            <td>Senai</td>
+            <td>(41)3030-0330</td>
+            <td>Brasil</td> 
+        </tr><tr>
+            <td>Senai</td>
+            <td>(41)3030-0330</td>
+            <td>Brasil</td> 
+        </tr>
+    </table>
+    <hr/>
+    <form action="">
+        <label for="nome">Nome</label><br />
+        <input type="text" id="nome" placeholder="Insira seu nome" /><br />
+        <label for="tel">Telefone</label><br />
+        <input type="number" id="tel" placeholder="Insira seu Telefone" />
+        <br />
+        <label for="data">Data do Envio</label><br />
+        <input type="date" id="data" /><br />
+        <br />
+        <button type="submit">Enviar</button>
+    </form>
+    <hr />
+    <input type="button" /><br/>
+    <input type="checkbox" /><br />
+    <input type="color" /><br />
+    <input type="date" /><br />
+    <input type="datetime-local" /><br />
+    <input type="email" /><br />
+    <input type="file" /><br />
+    <input type="hidden" /><br />
+    <input type="image" /><br />
+    <input type="month" /><br />
+    <input type="number" /><br />
+    <input type="password" /><br />
+    <input type="radio" /><br />
+    <input type="range" /><br />
+    <input type="reset" /><br />
+    <input type="search" /><br />
+    <input type="submit" /><br />
+    <input type="tel" /><br />
+    <input type="text" /><br />
+    <input type="time" /><br />
+    <input type="url" /><br />
+    <input type="week" /><br />
+    <hr />
+
+    <iframe
+        src="https://www.youtube.com/embed/JCCssUOtn2E"
+        frameborder="0"
+        width="560"
+        height="315"
+        title="youtube video player"
+        frameborder="0"
+        allow="acelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        ></iframe
+        
+        ><br />
+    
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/lW5kiEUVlpo"
+        title="youtube video player"
+        frameborder="0"
+        allow="acelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+    ></iframe>
+    <hr>
+<section class="alinhamento">
+    <h2>Exercícios</h2>
+    <div>
+        <button onclick="window.location.href='exe01.html'" class="btn">Primeiro</button>
+        <button onclick="window.location.href='exe02.html'" class="btn">Segundo</button>
+        <button onclick="window.location.href='exe03.html'" class="btn">Terceiro</button>
+    </div>
+</section>
+
+</body>
+</html>
